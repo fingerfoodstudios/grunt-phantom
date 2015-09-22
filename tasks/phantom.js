@@ -16,9 +16,9 @@ module.exports = function(grunt) {
     // Try the global path first. Fallback to the phantom as an optional dependency.
     try {
       which = require('which');
-      binPath = which.sync('phantomjs');
+      binPath = which.sync('phantomjs2');
     } catch(e) {
-      binPath = require('phantomjs').path;
+      binPath = require('phantomjs2').path;
     }
 
     // Merge task-specific and/or target-specific options with these defaults.
