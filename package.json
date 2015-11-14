@@ -41,7 +41,7 @@
     "gruntplugin"
   ],
   "optionalDependencies": {
-    "phantomjs": "~1.9.2-2"
+    "phantomjs2": "justhamade/phantomjs2"
   },
   "dependencies": {
     "which": "~1.0.5"
